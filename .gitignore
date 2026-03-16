@@ -1,0 +1,46 @@
+# Виртуальное окружение (воссоздаётся: pip install -r requirements.txt)
+.venv/
+venv/
+env/
+
+# Результаты обучения и инференса
+artifacts/
+work_dirs/
+*.pth
+last_checkpoint
+vis_data/
+
+# Датасет (обычно большой; при необходимости уберите эту строку для маленькой выборки)
+train_dataset_for_students/
+
+# Видео (исходное и результат инференса)
+sourcevideo.mp4
+output_segmented.mp4
+
+# Временные файлы
+_temp_*
+temp_*
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / ОС
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+# PyTorch с поддержкой CUDA (GPU)
+# Для другой версии CUDA см. https://pytorch.org/get-started/locally/
+torch>=2.0.0
+torchvision>=0.15.0
+
+# OpenMMLab (на Windows без сборки: mmcv-lite; для полного mmcv с CUDA — mim install mmcv)
+openmim
+mmengine
+mmcv-lite>=2.0.0rc4,<2.2.0
+mmsegmentation>=1.0.0
+
+# Утилиты (ftfy, regex — зависимости mmseg.utils)
+numpy
+Pillow
+opencv-python
+addict
+yapf
+matplotlib
+ftfy
+regex
